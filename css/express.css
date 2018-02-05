@@ -19,7 +19,7 @@
 }
 .indexDog{
     text-align: center;
-    padding-top: 15%;
+    padding-top: 10%;
     background-color: #ffdd83;
     border: white;
 }
@@ -36,8 +36,8 @@
     width: 80%;
 }
 .indexText{
-    padding-top: 5%;
+    padding-top: 3%;
     font-size: 66px;
     text-align: center;
-    margin-bottom: 10%;
+    /*margin-bottom: 10%;*/
 }
