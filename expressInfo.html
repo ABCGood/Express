@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Goal代 | 快递信息填写</title>
+    <link rel="stylesheet" href="css/express.css">
+</head>
+<body style="background-color: #eeeeee;">
+    <div style="padding-top: 14%;">
+        <div class="infoTitle">
+            <label>个人信息</label>
+        </div>
+        <div class="userInfo">
+            <label>小明</label>
+            <label>13198890986</label>
+            <a href="editUserInfo.html">
+                <label>编辑</label>
+            </a>
+        </div>
+    </div>
+    <form>
+        <div class="infoTitle">
+            <label>快递信息</label>
+        </div>
+        <div class="expressInfo">
+            <p>
+                <label>快递名：</label>
+                <input type="text" placeholder="hh">
+            </p>
+            <hr>
+            <p>
+                <label>提货码：</label>
+                <input type="text" placeholder="请输入提货码">
+            </p>
+            <hr>
+            <p>
+                <label style="position: absolute">大小：</label>
+                <select style="height: 70px;width: 300px;font-size: 24px;margin-left: 25%;">
+                    <option>大</option>
+                    <option>中</option>
+                    <option>大</option>
+                </select>
+             </p>
+            <hr>
+            <p>
+                <label>备注：</label>
+                <input type="text" placeholder="请输入备注">
+            </p>
+            <hr>
+        </div>
+        <div>
+            <div class="infoTitle">
+                <label>收货地址</label>
+            </div>
+            <div class="expressInfo">
+                <p>
+                    <label>宿舍/教学楼</label>
+                    <input type="text" placeholder="请输入备注" style="margin-left: 37%;">
+                </p>
+            </div>
+        </div>
+        <!--<div class="infoTitle">-->
+            <!--<label>收货时间</label>-->
+        <!--</div>-->
+    </form>
+    <div style="font-size: 50px;margin-top:8%;padding-top: 2%; padding-left: 3%;padding-bottom: 2%;background-color: white">
+        <label>共需支付</label><label style="margin-left: 50%;margin-right: 10px;font-size: 74px;color: red">3</label><label>元</label>
+    </div>
+    <div class="button">
+        <button>提交</button>
+    </div>
+    <div class="top">
+        <div>信息填写</div>
+    </div>
+</body>
+</html>

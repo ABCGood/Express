@@ -3,12 +3,24 @@
     padding: 0;
 }
 .top{
-    background-color: #fff;
+    position: fixed;
+    top:0;
+    background-color: white;
+    width: 100%;
     font-size: 48px;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+a{
+    text-decoration: none;
+    color: #666666;
+}
+a:hover{
+    color: #666666;
+}
+
+/* 主页 */
 .indexBody{
     /*background-color: #ffdd83;*/
 }
@@ -19,7 +31,7 @@
 }
 .indexDog{
     text-align: center;
-    padding-top: 10%;
+    padding-top: 12%;
     background-color: #ffdd83;
     border: white;
 }
@@ -40,4 +52,85 @@
     font-size: 66px;
     text-align: center;
     /*margin-bottom: 10%;*/
+}
+
+/* 快递信息填写 */
+.infoTitle{
+    font-size: 34px;
+    color: #666666;
+    background-color: #eeeeee;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+}
+.userInfo{
+    background-color: white;
+    text-align: center;
+    color: #666666;
+    font-size: 50px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.userInfo label{
+    padding-right: 8%;
+}
+.expressInfo{
+    font-size: 50px;
+    background-color: white;
+}
+.expressInfo p{
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-left: 4%;
+}
+.expressInfo label{
+    position: absolute;
+    padding-top: 5px
+}
+.expressInfo input{
+    width: 400px;
+    height: 80px;
+    margin-left: 25%;
+    border: none;
+    font-size: 36px;
+    /*padding-left: 20px;*/
+}
+.button{
+    text-align: center;
+    margin-top: 5%
+}
+.button button{
+    background-color: #f96e79;
+    color: white;
+    font-size: 54px;
+    width: 80%;
+    height: 120px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px #f96e79;
+}
+
+/*历史任务*/
+.history{
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+.historyInfo{
+    background-color: white;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.content{
+    background-color: white;
+    /*text-align: center;*/
+    font-size: 42px;
+    color: #666666;
+    padding-left: 20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.content div{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
